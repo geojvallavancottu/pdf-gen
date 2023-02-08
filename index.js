@@ -43,3 +43,17 @@ var server = app.listen(3000, () => {
 server.setTimeout(50000000);
 
 // app.set("port", process.env.PORT || 3000);
+
+
+// const data = {
+//     name: 'John Doe',
+//     email: 'johndoe@example.com'
+// };
+
+// axios.post('https://my-backend.com/api/users', data)
+//     .then(response => {
+//         console.log(response.data);
+//     })
+//     .catch(error => {
+//         console.error(error);
+//     });
